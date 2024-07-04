@@ -19,19 +19,16 @@ function App() {
   return (
     <Router basename="/d-try">
       <Routes>
-        <Route path="./" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="/Blog" element={<Blog />} />
-          <Route path="/Home" element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Login" element={<Login />} />
-          <Route path="/BlogP1" element={<BlogP1 />} />
-          <Route path="/BlogP2" element={<BlogP2 />} />
-          <Route path="/BlogP3" element={<BlogP3 />} />
-          <Route path="/BlogP4" element={<BlogP4 />} />
-          <Route path="/BlogP5" element={<BlogP5 />} />
-          <Route path="/Dict" element={<Dict />} />
-        </Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/Blog" element={<Blog />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/BlogP1" element={<BlogP1 />} />
+        <Route path="/BlogP2" element={<BlogP2 />} />
+        <Route path="/BlogP3" element={<BlogP3 />} />
+        <Route path="/BlogP4" element={<BlogP4 />} />
+        <Route path="/BlogP5" element={<BlogP5 />} />
+        <Route path="/Dict" element={<Dict />} />
       </Routes>
     </Router>
   );
