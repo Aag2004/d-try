@@ -17,7 +17,7 @@ import './index.css';
 
 function App() {
   return (
-    <Router basename="/dep-try">
+    <Router basename="/d-try">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
