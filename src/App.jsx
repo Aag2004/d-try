@@ -19,8 +19,9 @@ function App() {
   return (
     <Router basename="/d-try">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="" element={<Home />} />
         <Route path="/Blog" element={<Blog />} />
+        <Route path="/Home" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/BlogP1" element={<BlogP1 />} />
