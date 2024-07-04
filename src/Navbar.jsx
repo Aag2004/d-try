@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+
 import WordOfTheDay from "./WordOfTheDay"
 export function Nav() {
 
