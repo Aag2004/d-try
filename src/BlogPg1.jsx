@@ -6,12 +6,12 @@ export function BlogP1() {
     return (
         <div className='blgpg1'>
             <Nav />
-            <div class="blogpage playwrite-fr-moderne-xyz" >
-                <div id="grid" class="item">
-                    <div class="blogpage-image"><img src=".\src\assets\blogimages\blog1.jpeg" alt=""/></div>
-                    <div class="blogpage-title">Microfinance: Empowering the Underbanked</div>
+            <div className="blogpage playwrite-fr-moderne-xyz" >
+                <div id="grid" className="item">
+                    <div className="blogpage-image"><img src=".\src\assets\blogimages\blog1.jpeg" alt=""/></div>
+                    <div className="blogpage-title">Microfinance: Empowering the Underbanked</div>
                 </div>
-                <p class="blogpage-body" id="myElement">
+                <p className="blogpage-body" id="myElement">
                     Microfinance is a transformative approach to poverty alleviation and economic development, focusing on
                     providing financial services to low-income individuals and communities traditionally excluded from the
                     formal banking sector. These services include microloans, savings accounts, insurance, and payment systems.
@@ -28,7 +28,7 @@ export function BlogP1() {
                     accessibility and efficiency.
 
                 </p>
-                <p class="blogfooter">Written by <span class="by-name">CHATGPT</span> on <span class="date">25/05/23</span></p>
+                <p className="blogfooter">Written by <span className="by-name">CHATGPT</span> on <span className="date">25/05/23</span></p>
             </div>
             <Foot />
         </div>
