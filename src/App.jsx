@@ -19,7 +19,7 @@ function App() {
   return (
     <Router basename="/d-try">
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/" element={<Home />}>
           <Route index element={<Home />} />
           <Route path="/Blog" element={<Blog />} />
           <Route path="/Home" element={<Home />} />
